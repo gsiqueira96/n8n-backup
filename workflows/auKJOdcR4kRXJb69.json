@@ -1,0 +1,3289 @@
+{
+  "active": false,
+  "connections": {
+    "Fetch Metrics": {
+      "main": [
+        [
+          {
+            "node": "Calculate Results",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Calculate Results": {
+      "main": [
+        [
+          {
+            "node": "WhatsApp Message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "WhatsApp Message": {
+      "main": [
+        [
+          {
+            "node": "Mensagem 1x1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "EVO: Send Presence (Digitando)": {
+      "main": [
+        [
+          {
+            "node": "EVO: Mensageria de Relatório",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "EVO: Mensageria de Relatório": {
+      "main": [
+        [
+          {
+            "node": "Mensagem 1x1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Número para validar telefone": {
+      "main": [
+        [
+          {
+            "node": "Validador Universal Last Version",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Cadastrar na audiência": {
+      "main": [
+        [
+          {
+            "node": "Send Message: Métricas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validador Universal Last Version": {
+      "main": [
+        [
+          {
+            "node": "Cadastrar na audiência",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Data": {
+      "main": [
+        [
+          {
+            "node": "Fetch Metrics",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mensagem 1x1": {
+      "main": [
+        [],
+        [
+          {
+            "node": "EVO: Send Presence (Digitando)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Outliers Positivos": {
+      "main": [
+        [
+          {
+            "node": "Append/Update Positivos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Outliers Negativos": {
+      "main": [
+        [
+          {
+            "node": "Append/Update Negativos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger1": {
+      "main": [
+        [
+          {
+            "node": "Data1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch Metrics1": {
+      "main": [
+        [
+          {
+            "node": "Outliers Positivos",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Outliers Negativos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Data1": {
+      "main": [
+        [
+          {
+            "node": "Fetch Metrics1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get: Detalhes do Anúncio": {
+      "main": [
+        [
+          {
+            "node": "Tipo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tipo": {
+      "main": [
+        [
+          {
+            "node": "Análise de Imagem URL",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Get Ad Image (via Hash)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Instagram: Get Media",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Instagram: Get Reels",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Instagram: Get Reels",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Other",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Outliers + 1x1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Ad Image (via Hash)": {
+      "main": [
+        [
+          {
+            "node": "Análise de Imagem",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Transcrever": {
+      "main": [
+        [
+          {
+            "node": "Mapping",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download Video": {
+      "main": [
+        [
+          {
+            "node": "Transcrever",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Análise de Imagem": {
+      "main": [
+        [
+          {
+            "node": "Mapping",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Análise de Imagem URL": {
+      "main": [
+        [
+          {
+            "node": "Mapping",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Instagram: Get Media": {
+      "main": [
+        [
+          {
+            "node": "Análise de Imagem",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Instagram: Get Reels": {
+      "main": [
+        [
+          {
+            "node": "Download Video",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Other": {
+      "main": [
+        [
+          {
+            "node": "Mapping",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mapping": {
+      "main": [
+        [
+          {
+            "node": "Outlier Kind",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Outliers + 1x1": {
+      "main": [
+        [
+          {
+            "node": "Outliers Negativos1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Get: Detalhes do Anúncio",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Outlier Kind": {
+      "main": [
+        [
+          {
+            "node": "Update Positivos",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Update Negativos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update Positivos": {
+      "main": [
+        [
+          {
+            "node": "5s +",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update Negativos": {
+      "main": [
+        [
+          {
+            "node": "5s -",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Outliers - 1x": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Get: Detalhes do Anúncio",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "5s +": {
+      "main": [
+        [
+          {
+            "node": "Outliers + 1x1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "5s -": {
+      "main": [
+        [
+          {
+            "node": "Outliers - 1x",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger2": {
+      "main": [
+        [
+          {
+            "node": "Data2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Outliers Positivos1": {
+      "main": [
+        [
+          {
+            "node": "Outliers + 1x1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Outliers Negativos1": {
+      "main": [
+        [
+          {
+            "node": "Outliers - 1x",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Data2": {
+      "main": [
+        [
+          {
+            "node": "Outliers Positivos1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-04-03T09:38:20.290Z",
+  "id": "auKJOdcR4kRXJb69",
+  "meta": null,
+  "name": "[TRAFEGO] - Relatorio bolado",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -140,
+        60
+      ],
+      "id": "52e9d457-ba7f-4840-907e-334e59f020ef",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "graphApiVersion": "=v22.0",
+        "node": "act_465146026883364",
+        "edge": "insights",
+        "options": {
+          "fields": {
+            "field": [
+              {
+                "name": "campaign_name,ad_id,adset_name,ad_name,objective,reach,impressions,frequency,actions,action_values,cost_per_action_type,cpm,ctr,cpc,spend,canvas_avg_view_percent,canvas_avg_view_time,conversion_values,instant_experience_clicks_to_start,purchase_roas,video_30_sec_watched_actions,video_avg_time_watched_actions,video_continuous_2_sec_watched_actions,video_p100_watched_actions,video_p25_watched_actions,video_p50_watched_actions,video_p75_watched_actions,video_p95_watched_actions,video_play_retention_0_to_15s_actions,video_play_retention_20_to_60s_actions"
+              }
+            ]
+          },
+          "queryParameters": {
+            "parameter": [
+              {
+                "name": "level",
+                "value": "ad"
+              },
+              {
+                "name": "date_preset",
+                "value": "={{ $json['Date Preset'] }}"
+              },
+              {
+                "name": "limit",
+                "value": "999"
+              }
+            ]
+          }
+        }
+      },
+      "id": "63787057-2bf8-4826-b8c7-366eb40b30ca",
+      "name": "Fetch Metrics",
+      "type": "n8n-nodes-base.facebookGraphApi",
+      "typeVersion": 1,
+      "position": [
+        240,
+        60
+      ],
+      "retryOnFail": false,
+      "maxTries": 5,
+      "waitBetweenTries": 5000,
+      "executeOnce": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 💠 Criado por @prof.palomasilva - Automação Inteligente com n8n & IA 💠\n// 💠 Atualizado com CPA, Connect Rate, CTR e Hook Rate (calculado como video_continuous_2_sec_watched_actions/impressions somente para anúncios que possuam essa métrica),\n//     Outliers de CPA (positivos: CPA ≤ 60% da média; negativos: CPA ≥ 140% da média),\n//     classificações completas, sanitização, datas dinâmicas, emojis e resumo rápido 💠\n\n// Datas dinâmicas\nconst dataInicial = $input.item.json.data_inicial || \"últimos 30 dias\";\nconst dataFinal = $input.item.json.data_final || \"\";\n\n// Verifica dados do Facebook\nif (!items[0]) {\n  throw new Error(\"Dados do Facebook não recebidos.\");\n}\n\n// Detecta estrutura do Facebook\nlet fbData;\nif (Array.isArray(items[0].json)) {\n  if (items[0].json.length > 0 && items[0].json[0].data) {\n    fbData = items[0].json[0].data;\n  } else {\n    fbData = items[0].json;\n  }\n} else if (items[0].json.data) {\n  fbData = items[0].json.data;\n} else {\n  fbData = [items[0].json];\n}\n\n// Função para sanitizar nomes\nconst sanitizar = nome => nome.replace(/(Eduzz|Moni Cardoso|eduzz)/gi, \"\").slice(0, 40);\n\n// Variáveis para médias e totais\nlet totalSpend = 0;\nlet totalLeads = 0;\nlet sumFrequency = 0;\nlet sumCTR = 0;\nlet totalPurchaseValue = 0;\nlet totalPurchases = 0;\nlet totalConversas = 0;\nlet totalClicks = 0;\nlet totalViews = 0;\nlet totalHookHate = 0;\nlet countAds = fbData.length;\n// Contador para anúncios que possuem a métrica Hook Rate\nlet countAdsHookHate = 0;\n\nlet campanhasMap = {};\n\n// Primeira passagem (agregação e campanhas)\nfbData.forEach(ad => {\n  const spend = parseFloat(ad.spend || 0);\n  totalSpend += spend;\n  \n  const actions = ad.actions || [];\n  const leadAction = actions.find(a => a.action_type === \"lead\")?.value || \"0\";\n  const leads = parseInt(leadAction);\n  totalLeads += leads;\n  \n  const frequency = parseFloat(ad.frequency || 0);\n  sumFrequency += frequency;\n  \n  const ctr = parseFloat(ad.ctr || 0);\n  sumCTR += ctr;\n  \n  const purchaseAction = actions.find(a => a.action_type === \"purchase\")?.value || \"0\";\n  const purchases = parseInt(purchaseAction);\n  totalPurchases += purchases;\n  \n  const actionValues = ad.action_values || [];\n  const purchaseValue = parseFloat(actionValues.find(a => a.action_type === \"purchase\")?.value || \"0\");\n  totalPurchaseValue += purchaseValue;\n  \n  totalConversas += parseInt(actions.find(a => a.action_type === \"onsite_conversion.messaging_first_reply\")?.value || \"0\");\n  totalClicks += parseInt(actions.find(a => a.action_type === \"link_click\")?.value || \"0\");\n  totalViews += parseInt(actions.find(a => a.action_type === \"landing_page_view\")?.value || \"0\");\n  \n  // Calcula Hook Rate (em percentual) somente se a métrica existir na forma de array\n  let hookHateValue = 0;\n  if (Array.isArray(ad.video_continuous_2_sec_watched_actions) && ad.video_continuous_2_sec_watched_actions.length > 0) {\n    const videoWatched = parseFloat(ad.video_continuous_2_sec_watched_actions[0].value || 0);\n    const impressions = parseFloat(ad.impressions || 0);\n    hookHateValue = impressions > 0 ? (videoWatched / impressions) * 100 : 0;\n    totalHookHate += hookHateValue;\n    countAdsHookHate++;\n  }\n  \n  // Agrupamento por campanha (incluindo Hook Rate se disponível)\n  if (!campanhasMap[ad.campaign_name]) {\n    campanhasMap[ad.campaign_name] = { spend: 0, leads: 0, purchases: 0, purchaseValue: 0, hookHate: 0, count: 0 };\n  }\n  campanhasMap[ad.campaign_name].spend += spend;\n  campanhasMap[ad.campaign_name].leads += leads;\n  campanhasMap[ad.campaign_name].purchases += purchases;\n  campanhasMap[ad.campaign_name].purchaseValue += purchaseValue;\n  if (Array.isArray(ad.video_continuous_2_sec_watched_actions) && ad.video_continuous_2_sec_watched_actions.length > 0) {\n    campanhasMap[ad.campaign_name].hookHate += hookHateValue;\n  }\n  campanhasMap[ad.campaign_name].count += 1;\n});\n\n// Cálculo de médias\nconst avgCPL = totalLeads > 0 ? totalSpend / totalLeads : 0;\nconst avgSpend = countAds > 0 ? totalSpend / countAds : 0;\nconst avgFrequency = countAds > 0 ? sumFrequency / countAds : 0;\nconst avgCTR = countAds > 0 ? sumCTR / countAds : 0;\nconst avgCPA = totalPurchases > 0 ? totalSpend / totalPurchases : 0;\nconst avgConnectRate = totalClicks > 0 ? (totalViews / totalClicks) * 100 : 0;\n// A média de Hook Rate é calculada em percentual\nconst avgHookHate = countAdsHookHate > 0 ? totalHookHate / countAdsHookHate : 0;\n\n// Arrays para problemas e oportunidades\nlet problemasCPL = [], problemasGasto = [], problemasFrequenciaAlta = [];\nlet oportunidadesCPLBaixo = [], oportunidadesCTR = [], oportunidadesFrequenciaBaixa = [];\nlet problemasCPA = [], oportunidadesCPABaixo = [];\nlet problemasConnectRate = [], oportunidadesConnectRate = [];\nlet problemasCTR = [];\nlet problemasHookHate = [], oportunidadesHookHate = [];\n\n// Arrays para outliers de CPA\nlet outliersPositivos = [];\nlet outliersNegativos = [];\n\n// Arrays para classificações de anúncios e públicos\nlet melhoresAnuncios = [], pioresAnuncios = [];\nlet melhoresPublicos = [], pioresPublicos = [];\nlet melhoresAnunciosCPC = [], pioresAnunciosCPC = [];\nlet melhoresPublicosCPC = [], pioresPublicosCPC = [];\nlet melhoresAnunciosCPA = [], pioresAnunciosCPA = [];\nlet melhoresPublicosCPA = [], pioresPublicosCPA = [];\nlet melhoresAnunciosHookHate = [], pioresAnunciosHookHate = [];\nlet melhoresPublicosHookHate = [], pioresPublicosHookHate = [];\n\n// Arrays para campanhas\nlet campanhasArray = [], campanhasCPCArray = [], campanhasCPAArray = [];\nlet campanhasHookHateArray = [];\n\n// Segunda passagem (análise por anúncio)\nfbData.forEach(ad => {\n  const spend = parseFloat(ad.spend || 0);\n  const actions = ad.actions || [];\n  \n  const leadAction = actions.find(a => a.action_type === \"lead\")?.value || \"0\";\n  const leads = parseInt(leadAction);\n  const cpl = (spend > 0 && leads > 0) ? spend / leads : 0;\n  \n  const frequency = parseFloat(ad.frequency || 0);\n  const ctr = parseFloat(ad.ctr || 0);\n  const cpc = parseFloat(ad.cpc || 0);\n  \n  const purchaseAction = actions.find(a => a.action_type === \"purchase\")?.value || \"0\";\n  const purchases = parseInt(purchaseAction);\n  const cpa = (spend > 0 && purchases > 0) ? spend / purchases : 0;\n  \n  // Calcula Hook Rate para o anúncio (em percentual)\n  let hookHate = null;\n  if (Array.isArray(ad.video_continuous_2_sec_watched_actions) && ad.video_continuous_2_sec_watched_actions.length > 0) {\n    const videoWatched = parseFloat(ad.video_continuous_2_sec_watched_actions[0].value || 0);\n    const impressions = parseFloat(ad.impressions || 0);\n    hookHate = impressions > 0 ? (videoWatched / impressions) * 100 : 0;\n  }\n  \n  // Outliers de CPA: anúncios com CPA <= 60% da média (positivos) ou >= 140% da média (negativos)\n  if (purchases > 0 && cpa > 0) {\n    if (cpa <= avgCPA * 0.6) {\n      outliersPositivos.push(`(CPA: ${cpa.toFixed(2)} vs média ${avgCPA.toFixed(2)}) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n    }\n    if (cpa >= avgCPA * 1.4) {\n      outliersNegativos.push(`(CPA: ${cpa.toFixed(2)} vs média ${avgCPA.toFixed(2)}) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n    }\n  }\n  \n  // Problemas & oportunidades\n  if (cpl > avgCPL && spend >= avgSpend) {\n    problemasCPL.push(`(R$ ${cpl.toFixed(2)} vs média R$ ${avgCPL.toFixed(2)}) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n  }\n  if (cpl > 0 && cpl < avgCPL) {\n    oportunidadesCPLBaixo.push(`(R$ ${cpl.toFixed(2)} vs média R$ ${avgCPL.toFixed(2)}) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n  }\n  if (spend > avgSpend && leads === 0) {\n    problemasGasto.push(`(R$ ${spend.toFixed(2)} vs média R$ ${avgSpend.toFixed(2)}) ${sanitizar(ad.campaign_name)}`);\n  }\n  if (frequency > avgFrequency) {\n    problemasFrequenciaAlta.push(`(Frequência: ${frequency.toFixed(2)} vs média ${avgFrequency.toFixed(2)}) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n  }\n  // CTR: oportunidades e problemas\n  if (ctr > avgCTR) {\n    oportunidadesCTR.push(`(CTR: ${ctr.toFixed(2)}% vs média ${avgCTR.toFixed(2)}%) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n  }\n  if (ctr < avgCTR) {\n    problemasCTR.push(`(CTR: ${ctr.toFixed(2)}% vs média ${avgCTR.toFixed(2)}%) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n  }\n  if (ctr > avgCTR && frequency < avgFrequency) {\n    oportunidadesFrequenciaBaixa.push(`(CTR: ${ctr.toFixed(2)}%, Frequência: ${frequency.toFixed(2)} vs média ${avgFrequency.toFixed(2)}) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n  }\n  // CPA: oportunidades e problemas\n  if (purchases > 0) {\n    if (cpa > avgCPA && spend >= avgSpend) {\n      problemasCPA.push(`(R$ ${cpa.toFixed(2)} vs média R$ ${avgCPA.toFixed(2)}) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n    }\n    if (cpa > 0 && cpa < avgCPA) {\n      oportunidadesCPABaixo.push(`(R$ ${cpa.toFixed(2)} vs média R$ ${avgCPA.toFixed(2)}) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n    }\n  }\n  // Connect Rate: oportunidades e problemas\n  const linkClicks = parseInt(actions.find(a => a.action_type === \"link_click\")?.value || \"0\");\n  const landingPageViews = parseInt(actions.find(a => a.action_type === \"landing_page_view\")?.value || \"0\");\n  const connectRate = linkClicks > 0 ? (landingPageViews / linkClicks) * 100 : 0;\n  if (linkClicks > 0) {\n    if (connectRate < avgConnectRate) {\n      problemasConnectRate.push(`(Connect Rate: ${connectRate.toFixed(2)}% vs média ${avgConnectRate.toFixed(2)}%) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n    } else {\n      oportunidadesConnectRate.push(`(Connect Rate: ${connectRate.toFixed(2)}% vs média ${avgConnectRate.toFixed(2)}%) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n    }\n  }\n  // Hook Rate: classifica somente se a métrica existir e ignorando valores 0 (valor em percentual)\n  if (hookHate !== null && hookHate !== 0) {\n    if (hookHate > avgHookHate) {\n      oportunidadesHookHate.push(`(Hook Rate: ${hookHate.toFixed(2)}% vs média ${avgHookHate.toFixed(2)}%) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n    } else if (hookHate < avgHookHate) {\n      problemasHookHate.push(`(Hook Rate: ${hookHate.toFixed(2)}% vs média ${avgHookHate.toFixed(2)}%) ${sanitizar(ad.ad_name)} (${ad.ad_id})`);\n    }\n  }\n  \n  // Classificações por anúncio e público\n  if (cpl > 0) {\n    melhoresAnuncios.push({ nome: sanitizar(ad.ad_name), cpl, ad_id: ad.ad_id });\n    melhoresPublicos.push({ nome: sanitizar(ad.adset_name), cpl, adset_id: ad.adset_id });\n  }\n  if (cpc > 0) {\n    melhoresAnunciosCPC.push({ nome: sanitizar(ad.ad_name), cpc, ad_id: ad.ad_id });\n    melhoresPublicosCPC.push({ nome: sanitizar(ad.adset_name), cpc, adset_id: ad.adset_id });\n  }\n  if (cpa > 0) {\n    melhoresAnunciosCPA.push({ nome: sanitizar(ad.ad_name), cpa, ad_id: ad.ad_id });\n    melhoresPublicosCPA.push({ nome: sanitizar(ad.adset_name), cpa, adset_id: ad.adset_id });\n  }\n  // Classificação por Hook Rate: apenas para anúncios que possuem a métrica (valor em percentual)\n  if (hookHate !== null && hookHate !== 0) {\n    melhoresAnunciosHookHate.push({ nome: sanitizar(ad.ad_name), hookHate: hookHate.toFixed(2), ad_id: ad.ad_id });\n    melhoresPublicosHookHate.push({ nome: sanitizar(ad.adset_name), hookHate: hookHate.toFixed(2), adset_id: ad.adset_id });\n  }\n});\n\n// Ordenações de anúncios e públicos\nmelhoresAnuncios.sort((a, b) => a.cpl - b.cpl);\npioresAnuncios = [...melhoresAnuncios].reverse();\nmelhoresPublicos.sort((a, b) => a.cpl - b.cpl);\npioresPublicos = [...melhoresPublicos].reverse();\n\nmelhoresAnunciosCPC.sort((a, b) => a.cpc - b.cpc);\npioresAnunciosCPC = [...melhoresAnunciosCPC].reverse();\nmelhoresPublicosCPC.sort((a, b) => a.cpc - b.cpc);\npioresPublicosCPC = [...melhoresPublicosCPC].reverse();\n\nmelhoresAnunciosCPA.sort((a, b) => a.cpa - b.cpa);\npioresAnunciosCPA = [...melhoresAnunciosCPA].reverse();\nmelhoresPublicosCPA.sort((a, b) => a.cpa - b.cpa);\npioresPublicosCPA = [...melhoresPublicosCPA].reverse();\n\nmelhoresAnunciosHookHate.sort((a, b) => parseFloat(a.hookHate) - parseFloat(b.hookHate));\npioresAnunciosHookHate = [...melhoresAnunciosHookHate].reverse();\nmelhoresPublicosHookHate.sort((a, b) => parseFloat(a.hookHate) - parseFloat(b.hookHate));\npioresPublicosHookHate = [...melhoresPublicosHookHate].reverse();\n\n// Classificação por campanhas para CPL, CPC e CPA\nfor (const [nome, data] of Object.entries(campanhasMap)) {\n  const cplCampanha = (data.spend > 0 && data.leads > 0) ? data.spend / data.leads : 0;\n  const cpcCampanha = (data.spend > 0 && data.leads > 0) ? data.spend / data.leads : 0;\n  const cpaCampanha = (data.spend > 0 && data.purchases > 0) ? data.spend / data.purchases : 0;\n\n  if (cplCampanha > 0) campanhasArray.push({ nome: sanitizar(nome), cpl: cplCampanha, campaign_name: nome });\n  if (cpcCampanha > 0) campanhasCPCArray.push({ nome: sanitizar(nome), cpc: cpcCampanha, campaign_name: nome });\n  if (cpaCampanha > 0) campanhasCPAArray.push({ nome: sanitizar(nome), cpa: cpaCampanha, campaign_name: nome });\n}\n\n// Classificação por campanhas para Hook Rate (média por campanha, considerando apenas anúncios que possuem a métrica)\nfor (const [nome, data] of Object.entries(campanhasMap)) {\n  const hookHateCampanha = data.hookHate > 0 ? data.hookHate / data.count : 0;\n  campanhasHookHateArray.push({ nome: sanitizar(nome), hookHate: hookHateCampanha.toFixed(2), campaign_name: nome });\n}\n\ncampanhasArray.sort((a, b) => a.cpl - b.cpl);\ncampanhasCPCArray.sort((a, b) => a.cpc - b.cpc);\ncampanhasCPAArray.sort((a, b) => a.cpa - b.cpa);\ncampanhasHookHateArray.sort((a, b) => parseFloat(a.hookHate) - parseFloat(b.hookHate));\n\nconst melhorCampanha = campanhasArray[0] || \"Nenhuma campanha\";\nconst piorCampanha = campanhasArray[campanhasArray.length - 1] || \"Nenhuma campanha\";\nconst melhorCampanhaCPC = campanhasCPCArray[0] || \"Nenhuma campanha\";\nconst piorCampanhaCPC = campanhasCPCArray[campanhasCPCArray.length - 1] || \"Nenhuma campanha\";\nconst melhorCampanhaCPA = campanhasCPAArray[0] || \"Nenhuma campanha\";\nconst piorCampanhaCPA = campanhasCPAArray[campanhasCPAArray.length - 1] || \"Nenhuma campanha\";\nconst melhorCampanhaHookHate = campanhasHookHateArray[0] || \"Nenhuma campanha\";\nconst piorCampanhaHookHate = campanhasHookHateArray[campanhasHookHateArray.length - 1] || \"Nenhuma campanha\";\n\n// Resumo rápido\nconst resumo = `🚀 *Resumo*: ${oportunidadesCPLBaixo.length} anúncios com CPL baixo, ${problemasCPL.length} com CPL alto, ${problemasFrequenciaAlta.length} com frequência alta.`;\n\n// Output (Hook Rate exibido como percentual)\nreturn [{\n  json: {\n    // Período dinâmico, usando o valor do node \"Dados\"\n    periodo: $node[\"Data\"].json[\"Date Preset\"],\n    totais: {\n      \"Valor Investido\": totalSpend.toLocaleString('pt-BR', { minimumFractionDigits: 2 }),\n      \"Leads\": totalLeads,\n      \"Compras\": totalPurchases,\n      \"Valor Compras\": totalPurchaseValue.toLocaleString('pt-BR', { minimumFractionDigits: 2 }),\n      \"CPA Médio\": avgCPA.toFixed(2),\n      \"Conversas Iniciadas\": totalConversas,\n      \"Cliques no link\": totalClicks,\n      \"Visitas à página\": totalViews,\n      \"Connect Rate Médio (%)\": avgConnectRate.toFixed(2),\n      \"Hook Rate Médio\": avgHookHate.toFixed(2) + \"%\"  // Exibido como percentual\n    },\n    problemas: {\n      \"CPL Alto\": problemasCPL,\n      \"Frequência Alta\": problemasFrequenciaAlta,\n      \"Gasto sem Leads\": problemasGasto,\n      \"CTR Baixo\": problemasCTR,\n      \"CPA Alto\": problemasCPA,\n      \"Connect Rate Baixo\": problemasConnectRate,\n      \"Hook Rate Baixo\": problemasHookHate\n    },\n    oportunidades: {\n      \"CPL Baixo\": oportunidadesCPLBaixo,\n      \"CTR Excelente\": oportunidadesCTR,\n      \"Baixa Frequência c/ Bom CTR\": oportunidadesFrequenciaBaixa,\n      \"CPA Baixo\": oportunidadesCPABaixo,\n      \"Connect Rate Excelente\": oportunidadesConnectRate,\n      \"Hook Rate Alto\": oportunidadesHookHate\n    },\n    outliers: {\n      \"Positivos\": outliersPositivos,\n      \"Negativos\": outliersNegativos\n    },\n    classificacoes: {\n      // CPL\n      \"🏆 Melhor Anúncio CPL\": melhoresAnuncios[0] || \"Nenhum anúncio\",\n      \"🔥 Pior Anúncio CPL\": pioresAnuncios[0] || \"Nenhum anúncio\",\n      \"💠 Melhor Público CPL\": melhoresPublicos[0] || \"Nenhum público\",\n      \"⚠️ Pior Público CPL\": pioresPublicos[0] || \"Nenhum público\",\n      \"📈 Melhor Campanha CPL\": melhorCampanha,\n      \"📉 Pior Campanha CPL\": piorCampanha,\n      // CPC\n      \"🏆 Melhor Anúncio CPC\": melhoresAnunciosCPC[0] || \"Nenhum anúncio\",\n      \"🔥 Pior Anúncio CPC\": pioresAnunciosCPC[0] || \"Nenhum anúncio\",\n      \"💠 Melhor Público CPC\": melhoresPublicosCPC[0] || \"Nenhum público\",\n      \"⚠️ Pior Público CPC\": pioresPublicosCPC[0] || \"Nenhum público\",\n      \"📈 Melhor Campanha CPC\": melhorCampanhaCPC,\n      \"📉 Pior Campanha CPC\": piorCampanhaCPC,\n      // CPA\n      \"🏆 Melhor Anúncio CPA\": melhoresAnunciosCPA[0] || \"Nenhum anúncio\",\n      \"🔥 Pior Anúncio CPA\": pioresAnunciosCPA[0] || \"Nenhum anúncio\",\n      \"💠 Melhor Público CPA\": melhoresPublicosCPA[0] || \"Nenhum público\",\n      \"⚠️ Pior Público CPA\": pioresPublicosCPA[0] || \"Nenhum público\",\n      \"📈 Melhor Campanha CPA\": melhorCampanhaCPA,\n      \"📉 Pior Campanha CPA\": piorCampanhaCPA,\n      // Hook Rate\n      \"🏆 Melhor Anúncio Hook Rate\": melhoresAnunciosHookHate[0] || \"Nenhum anúncio\",\n      \"🔥 Pior Anúncio Hook Rate\": pioresAnunciosHookHate[0] || \"Nenhum anúncio\",\n      \"💠 Melhor Público Hook Rate\": melhoresPublicosHookHate[0] || \"Nenhum público\",\n      \"⚠️ Pior Público Hook Rate\": pioresPublicosHookHate[0] || \"Nenhum público\",\n      \"📈 Melhor Campanha Hook Rate\": melhorCampanhaHookHate,\n      \"📉 Pior Campanha Hook Rate\": piorCampanhaHookHate\n    },\n    resumo: resumo\n  }\n}];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        460,
+        60
+      ],
+      "id": "48e3c839-5e60-4d16-b9bf-cb9a5cca9388",
+      "name": "Calculate Results"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 💠 Criado por @prof.palomasilva - Automação Inteligente com n8n & IA 💠\n\nconst MAX_ITEMS = 10;\n\nconst datePresetMap = {\n  \"today\": \"hoje\",\n  \"yesterday\": \"ontem\",\n  \"last_3d\": \"dos últimos 3 dias\",\n  \"last_7d\": \"dos últimos 7 dias\",\n  \"last_14d\": \"dos últimos 14 dias\",\n  \"last_30d\": \"dos últimos 30 dias\",\n  \"last_90d\": \"dos últimos 90 dias\",\n  \"this_month\": \"deste mês\",\n  \"last_month\": \"do mês passado\",\n  \"this_quarter\": \"deste trimestre\",\n  \"lifetime\": \"do período total\"\n};\n\nconst presetKey = $node[\"Data\"].json[\"Date Preset\"] || \"last_14d\";\nconst datePresetText = datePresetMap[presetKey] || \"dos últimos 14 dias\";\n\nfunction getPeriodDates(presetKey) {\n  let today = new Date();\n  let startDate = new Date();\n  switch (presetKey) {\n    case \"today\": break;\n    case \"yesterday\": startDate.setDate(today.getDate() - 1); break;\n    case \"last_3d\": startDate.setDate(today.getDate() - 3); break;\n    case \"last_7d\": startDate.setDate(today.getDate() - 7); break;\n    case \"last_14d\": startDate.setDate(today.getDate() - 14); break;\n    case \"last_30d\": startDate.setDate(today.getDate() - 30); break;\n    case \"last_90d\": startDate.setDate(today.getDate() - 90); break;\n    case \"this_month\": startDate = new Date(today.getFullYear(), today.getMonth(), 1); break;\n    case \"last_month\":\n      startDate = new Date(today.getFullYear(), today.getMonth() - 1, 1);\n      today = new Date(today.getFullYear(), today.getMonth(), 0);\n      break;\n    case \"this_quarter\":\n      const currentQuarter = Math.floor(today.getMonth() / 3);\n      startDate = new Date(today.getFullYear(), currentQuarter * 3, 1);\n      break;\n    case \"lifetime\": startDate = null; break;\n  }\n  function formatDate(date) {\n    return `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}`;\n  }\n  if (!startDate) return \"\";\n  return `(de ${formatDate(startDate)} a ${formatDate(today)})`;\n}\n\nconst periodDates = getPeriodDates(presetKey);\n\n// Função para sanitizar nomes\nfunction sanitizeName(name) {\n  return name.replace(/Eduzz|eduzz|Moni-Cardoso/gi, '').trim().substring(0, 10);\n}\n\n// Função isValid para validação de itens\nfunction isValid(val) {\n  if (typeof val === \"string\") {\n    return !val.toLowerCase().includes(\"nenhum\");\n  } else if (typeof val === \"object\" && val !== null && val.nome) {\n    return !val.nome.toLowerCase().includes(\"nenhum\");\n  }\n  return false;\n}\n\n// Helper para extrair o valor numérico de uma string (ex: \"R$ 10.61\")\nfunction extractValue(str) {\n  const match = str.match(/R\\$\\s*([\\d.,]+)/);\n  if (match) {\n    return parseFloat(match[1].replace(',', '.'));\n  }\n  return 0;\n}\n\nconst copies = {\n  problemas: [\n    `⚠️ Problemas detectados nas métricas ${datePresetText} ${periodDates}:`\n  ],\n  oportunidades: [\n    `🚀 Oportunidades para escalar seus anúncios ${datePresetText} ${periodDates}:`,\n    `💡 Pontos positivos identificados ${datePresetText} ${periodDates}:`\n  ],\n  classificacoes: [\n    `🏆 Melhores e piores desempenhos ${datePresetText} ${periodDates}:`\n  ],\n  totais: [\n    `📋 Métricas principais ${datePresetText} ${periodDates}:`\n  ]\n};\n\nconst output = [];\nconst input = items[0].json;\n\n// --- Construção da mensagem de Totais ---\nfunction buildTotaisMessage(data) {\n  let msg = \"📊 Métricas Gerais*\\n\";\n  // Ordem desejada com a inclusão de \"CPA Médio\"\n  const order = [\n    \"Valor Investido\",\n    \"Leads\",\n    \"Compras\",\n    \"CPA Médio\",\n    \"Conversas Iniciadas\",\n    \"Cliques no link\",\n    \"Visitas à página\",\n    \"Connect Rate Médio (%)\",\n    \"Hook Rate Médio\"\n  ];\n  order.forEach(metric => {\n    if (data[metric] && parseFloat(data[metric].toString().replace(/[^\\d.,]/g, \"\").replace(',', '.')) !== 0) {\n      if (metric === \"Connect Rate Médio (%)\") {\n        msg += `* ${metric}: ${data[metric]} (Ideal: 80%)\\n`;\n      } else if (metric === \"Hook Rate Médio\") {\n        msg += `* Hook Rate Médio: ${data[metric]} (Ideal: +50%)\\n`;\n      } else {\n        msg += `* ${metric}: ${data[metric]}\\n`;\n      }\n    }\n  });\n  return [msg.trim()];\n}\n\n// --- Construção de mensagens simples para Problemas e Oportunidades ---\nfunction buildSimpleMessage(type, data) {\n  let msg = copies[type][Math.floor(Math.random() * copies[type].length)] + \"\\n\\n\";\n  for (const subtopic in data) {\n    if (!Array.isArray(data[subtopic])) continue;\n    // Se o subtópico for uma métrica numérica (CPL, CPC, CPA), filtra itens com valor 0 e ordena:\n    if (subtopic.toLowerCase().includes(\"cpl\") || subtopic.toLowerCase().includes(\"cpc\") || subtopic.toLowerCase().includes(\"cpa\")) {\n      data[subtopic] = data[subtopic]\n        .filter(item => extractValue(item) !== 0)\n        .sort((a, b) => {\n          return type === \"oportunidades\" \n            ? extractValue(a) - extractValue(b) \n            : extractValue(b) - extractValue(a);\n        });\n    }\n    // Define emoji para o header\n    const lower = subtopic.toLowerCase();\n    const emoji = lower.includes(\"alto\") ? \"⚠️\" : lower.includes(\"baixo\") ? \"✅\" : \"🔍\";\n    const header = `*${subtopic}* ${emoji}:\\n`;\n    msg += header;\n    data[subtopic].slice(0, MAX_ITEMS).forEach((item, index) => {\n      msg += `${index + 1}. ${item}\\n`;\n    });\n    msg += \"\\n\";\n  }\n  return [msg.trim()];\n}\n\n// --- Construção da mensagem de Classificações agrupadas por condição ---\nfunction buildClassificacoesMessage(data) {\n  // Grupos para cada métrica\n  const groups = {\n    \"CPL\": {\n      \"Melhor criativo\": [],\n      \"Melhor campanha\": [],\n      \"Melhor público (adset)\": [],\n      \"Pior criativo\": [],\n      \"Pior campanha\": [],\n      \"Pior público (adset)\": []\n    },\n    \"CPC\": {\n      \"Melhor criativo\": [],\n      \"Melhor campanha\": [],\n      \"Melhor público (adset)\": [],\n      \"Pior criativo\": [],\n      \"Pior campanha\": [],\n      \"Pior público (adset)\": []\n    },\n    \"CPA\": {\n      \"Melhor criativo\": [],\n      \"Melhor campanha\": [],\n      \"Melhor público (adset)\": [],\n      \"Pior criativo\": [],\n      \"Pior campanha\": [],\n      \"Pior público (adset)\": []\n    },\n    \"Hook Rate\": {\n      \"Melhor criativo\": [],\n      \"Melhor campanha\": [],\n      \"Melhor público (adset)\": [],\n      \"Pior criativo\": [],\n      \"Pior campanha\": [],\n      \"Pior público (adset)\": []\n    }\n  };\n  \n  // Agrupa com base na chave (ex.: \"🏆 Melhor Anúncio CPL\")\n  Object.keys(data).forEach(key => {\n    if (isValid(data[key])) {\n      const val = data[key];\n      let metric = \"\";\n      if (key.includes(\"CPL\")) metric = \"CPL\";\n      else if (key.includes(\"CPC\")) metric = \"CPC\";\n      else if (key.includes(\"CPA\")) metric = \"CPA\";\n      else if (key.includes(\"Hook\")) metric = \"Hook Rate\";\n      else return;\n      let groupKey = \"\";\n      if (key.startsWith(\"🏆\") || key.startsWith(\"⭐\")) groupKey = \"Melhor criativo\";\n      else if (key.startsWith(\"🔥\")) groupKey = \"Pior criativo\";\n      else if (key.startsWith(\"💠\")) groupKey = \"Melhor público (adset)\";\n      else if (key.startsWith(\"⚠️\")) groupKey = \"Pior público (adset)\";\n      else if (key.includes(\"📈\")) groupKey = \"Melhor campanha\";\n      else if (key.includes(\"📉\")) groupKey = \"Pior campanha\";\n      else return;\n      \n      groups[metric][groupKey].push(data[key]);\n    }\n  });\n  \n  let msg = copies[\"classificacoes\"][Math.floor(Math.random() * copies[\"classificacoes\"].length)] + \"\\n\\n\";\n  // Para cada métrica, criar a mensagem agrupada\n  Object.keys(groups).forEach(metric => {\n    const group = groups[metric];\n    const totalItems = Object.values(group).reduce((acc, arr) => acc + arr.length, 0);\n    if (totalItems === 0) return;\n    msg += `*Performance por ${metric}:* 📊\\n\\n`;\n    const subHeaders = {\n      \"Melhor criativo\": \"🏆\",\n      \"Melhor campanha\": \"📈\",\n      \"Melhor público (adset)\": \"💠\",\n      \"Pior criativo\": \"🔥\",\n      \"Pior campanha\": \"📉\",\n      \"Pior público (adset)\": \"⚠️\"\n    };\n    Object.keys(group).forEach(subKey => {\n      if (group[subKey].length === 0) return;\n      msg += `  *${subKey}* ${subHeaders[subKey]}\\n`;\n      group[subKey].slice(0, MAX_ITEMS).forEach((item, index) => {\n        let value = item.cpl || item.cpc || item.cpa;\n        value = (typeof value === \"number\") ? value : (parseFloat(value) || 0);\n        if (item.ad_id) {\n          msg += `    ${index + 1}. ${sanitizeName(item.nome)} (${metric}: R$${value.toFixed(2)}) [ID: ${item.ad_id}]\\n`;\n        } else if (item.campaign_name) {\n          msg += `    ${index + 1}. ${sanitizeName(item.nome)} (${metric}: R$${value.toFixed(2)}) [Camp: ${item.campaign_name}]\\n`;\n        } else {\n          msg += `    ${index + 1}. ${sanitizeName(item.nome)} (R$${value.toFixed(2)})\\n`;\n        }\n      });\n      msg += \"\\n\"; // quebra extra de linha após cada subtópico\n    });\n    msg += \"\\n\"; // quebra extra de linha após cada métrica\n  });\n  return [msg.trim()];\n}\n\nfunction buildMessage(type, data) {\n  if (type === \"problemas\" || type === \"oportunidades\") {\n    return buildSimpleMessage(type, data);\n  }\n  if (type === \"classificacoes\") {\n    return buildClassificacoesMessage(data);\n  }\n  if (type === \"totais\") {\n    return buildTotaisMessage(data);\n  }\n  return [];\n}\n\nconst metricsMessages = buildMessage(\"totais\", input[\"totais\"]);\nmetricsMessages.forEach(msg => output.push({ json: { tipo: \"totais\", mensagem: msg } }));\n\n[\"problemas\", \"oportunidades\", \"classificacoes\"].forEach(type => {\n  const messages = buildMessage(type, input[type]);\n  messages.forEach(msg => output.push({ json: { tipo: type, mensagem: msg } }));\n});\n\n// Mensagem de resumo final\nif (input[\"resumo\"]) {\n  output.push({\n    json: {\n      tipo: \"resumo\",\n      mensagem: input[\"resumo\"]\n    }\n  });\n}\n\nreturn output;\n\n// 💠 Criado por @prof.palomasilva - Automação Inteligente com n8n & IA 💠\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        60
+      ],
+      "id": "a68c1935-7b85-4621-8386-7475f4401221",
+      "name": "WhatsApp Message"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $node[\"Data\"].json[\"URL Evolution\"] }}/chat/sendPresence/{{ $node[\"Data\"].json[\"Instância Evolution\"] }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $node[\"Data\"].json[\"telefone\"] }}"
+            },
+            {
+              "name": "delay",
+              "value": "={{5000}}"
+            },
+            {
+              "name": "presence",
+              "value": "composing"
+            }
+          ]
+        },
+        "options": {
+          "redirect": {
+            "redirect": {}
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1120,
+        100
+      ],
+      "id": "5657906d-ee62-4eb2-89a9-4591ad1948ea",
+      "name": "EVO: Send Presence (Digitando)"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $node[\"Data\"].json[\"URL Evolution\"] }}/message/sendText/{{ $node[\"Data\"].json[\"Instância Evolution\"] }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {}
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "number",
+              "value": "={{ $node[\"Data\"].json[\"telefone\"] }}"
+            },
+            {
+              "name": "text",
+              "value": "={{ $('Mensagem 1x1').item.json.mensagem }}"
+            }
+          ]
+        },
+        "options": {
+          "redirect": {
+            "redirect": {}
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1320,
+        100
+      ],
+      "id": "ac881ae4-9de5-4ed6-a54b-2ca87ee157b1",
+      "name": "EVO: Mensageria de Relatório"
+    },
+    {
+      "parameters": {
+        "keepOnlySet": true,
+        "values": {
+          "string": [
+            {
+              "name": "whatsapp",
+              "value": "={{ $json.telefone }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "f361ccc4-0d4d-4e55-a6e8-31b91e505ba1",
+      "name": "Número para validar telefone",
+      "type": "n8n-nodes-base.set",
+      "position": [
+        -20,
+        380
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// 💠 Criado por @prof.palomasilva - Automação Inteligente com n8n & IA 💠\n// Resumo: Este código formata números de WhatsApp, diferenciando números internacionais dos nacionais e ajustando o formato para o padrão brasileiro.\n\nvar rawWhatsApp = $input.item.json.whatsapp;\n\n// Limpa removendo tudo exceto dígitos e o sinal de \"+\"\nvar whatsappClean = rawWhatsApp.replace(/[^0-9+]/g, '');\n\n// Verifica se o número inicia com \"+\"\nvar hasPlus = whatsappClean.startsWith('+');\n\n// Remove o sinal de \"+\" para processamento, se existir\nvar whatsappDigits = hasPlus ? whatsappClean.slice(1) : whatsappClean;\n\n// Determina se é número brasileiro\n// Números internacionais (DDI ≠ 55) sempre vêm com DDI; os nacionais podem vir sem\nvar isBrazilian = false;\nvar ddi = '';\n\nif (whatsappDigits.startsWith('55')) {\n  isBrazilian = true;\n  ddi = '+55';\n} else if (whatsappDigits.length === 10 || whatsappDigits.length === 11) {\n  isBrazilian = true;\n  ddi = '+55';\n}\n\n// Se não for brasileiro, retorna o número sem formatação\nif (!isBrazilian) {\n  return {\n    json: {\n      isInternational: true,\n      ddi: '',\n      ddd: '',\n      whatsapp: whatsappClean,\n      whatsapp_formatado: whatsappClean,\n    },\n  };\n}\n\n// Para número brasileiro: se o DDI estiver presente (\"55\"), remove-o para isolar DDD e número local\nvar numberForProcessing = whatsappDigits.startsWith('55') ? whatsappDigits.slice(2) : whatsappDigits;\n\n// Extrai o DDD (dois primeiros dígitos) e o número local (restante)\nvar ddd = numberForProcessing.slice(0, 2);\nvar localNumber = numberForProcessing.slice(2);\n\n// Ajusta o número local de acordo com o DDD:\n// - Se DDD > 28, o número local deve ter 8 dígitos. Se vier com 9 dígitos, remove o primeiro dígito.\n// - Se DDD <= 28, o número local deve ter 9 dígitos. Se vier com 8 dígitos, adiciona um '9' no início.\nif (parseInt(ddd, 10) > 28) {\n  if (localNumber.length === 9) {\n    localNumber = localNumber.slice(1);\n  }\n} else {\n  if (localNumber.length === 8) {\n    localNumber = '9' + localNumber;\n  }\n}\n\n// Monta o número formatado completo (sempre com o DDI \"+55\")\nvar whatsapp_formatado = ddi + ddd + localNumber;\n\nreturn {\n  json: {\n    isInternational: false,\n    ddi: ddi,\n    ddd: ddd,\n    whatsapp: localNumber,\n    whatsapp_formatado: whatsapp_formatado,\n  },\n};\n\n// 💠 Criado por @prof.palomasilva - Automação Inteligente com n8n & IA 💠\n"
+      },
+      "id": "e1c86329-018b-4e10-b4f6-5a8a6e9e63d9",
+      "name": "Validador Universal Last Version",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        180,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "requestMethod": "POST",
+        "url": "=https://backend.botconversa.com.br/api/v1/webhook/subscriber/",
+        "options": {},
+        "bodyParametersUi": {
+          "parameter": [
+            {
+              "name": "phone",
+              "value": "={{ $node[\"Validador Universal Last Version\"].json[\"whatsapp_formatado\"] }}"
+            },
+            {
+              "name": "first_name",
+              "value": "={{ $node[\"Data\"].json[\"Nome Completo\"].split(' ')[0] }}"
+            },
+            {
+              "name": "last_name",
+              "value": "={{ $node[\"Data\"].json[\"Nome Completo\"] ? $node[\"Data\"].json[\"Nome Completo\"].split(' ').slice(1).join(' ') || '\\u200B' : '\\u200B' }}"
+            }
+          ]
+        }
+      },
+      "id": "8e0def06-58ee-4ccd-8945-c69e8a5392f5",
+      "name": "Cadastrar na audiência",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [
+        400,
+        380
+      ],
+      "typeVersion": 2,
+      "retryOnFail": true,
+      "continueOnFail": true
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "728ebf1c-8554-4441-82b4-7961923bf5f7",
+              "name": "Date Preset",
+              "value": "last_30d",
+              "type": "string"
+            },
+            {
+              "id": "8d88c137-383f-4307-b3cc-1f6a560ea67b",
+              "name": "telefone",
+              "value": "=551199999999",
+              "type": "string"
+            },
+            {
+              "id": "a36b66cb-a00f-4734-ba0c-0ec31a6835e5",
+              "name": "Nome Completo",
+              "value": "=Bobbynho Te Amo",
+              "type": "string"
+            },
+            {
+              "id": "ccb4cf45-f410-4022-b8ee-e0685ce4f532",
+              "name": "Inbox",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "15f1d4c0-ee60-42ac-869d-f80970e24bb6",
+              "name": "Message ID",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "fcad4f0f-c9db-4aee-b362-0d0b414adb2c",
+              "name": "Conversation ID",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "01b2c245-fee6-4d3e-a3ae-ee425dd75d8a",
+              "name": "Account ID",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "ae84878b-b163-41d2-bc57-6a74daec8a12",
+              "name": "Account Name",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "01d04d3c-a6ea-42b1-bdf7-f4e179a1ed08",
+              "name": "URL ChatWoot",
+              "value": "https://atendimento.fulanodetal.com",
+              "type": "string"
+            },
+            {
+              "id": "533bf819-08ac-491a-b181-6b5388945daf",
+              "name": "URL Evolution",
+              "value": "https://evo.fulanodetal.com",
+              "type": "string"
+            },
+            {
+              "id": "7ba6a381-c07a-4c79-a4df-330447933eed",
+              "name": "Instância Evolution",
+              "value": "FulanoDeTal",
+              "type": "string"
+            },
+            {
+              "id": "869226de-36b7-4708-a7d4-ce52ca2a9459",
+              "name": "ID Grupo",
+              "value": "=",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "b8fc5648-7424-4e0e-9648-70d5ae6b08d1",
+      "name": "Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        60,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "headerAuth",
+        "requestMethod": "POST",
+        "url": "=https://backend.botconversa.com.br/api/v1/webhook/subscriber/{{ $('Cadastrar na audiência').item.json.id }}/send_message/",
+        "options": {},
+        "bodyParametersUi": {
+          "parameter": [
+            {
+              "name": "type",
+              "value": "text"
+            },
+            {
+              "name": "value",
+              "value": "={{ $('Mensagem 1x1').item.json.mensagem }}"
+            }
+          ]
+        }
+      },
+      "name": "Send Message: Métricas",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 1,
+      "position": [
+        640,
+        380
+      ],
+      "id": "586fb749-0a18-4a1b-b648-307669089c8a"
+    },
+    {
+      "parameters": {
+        "options": {
+          "reset": false
+        }
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        880,
+        60
+      ],
+      "id": "4be1136e-1a12-473c-bc03-11fe80426c14",
+      "name": "Mensagem 1x1"
+    },
+    {
+      "parameters": {
+        "content": "## BotConversa\nObs: Não esqueça de criar sua credencial do tipo header auth",
+        "height": 300,
+        "width": 1020,
+        "color": 7
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -140,
+        260
+      ],
+      "typeVersion": 1,
+      "id": "f876a11f-0555-4404-a643-ad25ebcd377b",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Evolution API\nObs: Não esqueça de criar sua credencial do tipo header auth",
+        "height": 320,
+        "width": 540,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1000,
+        0
+      ],
+      "typeVersion": 1,
+      "id": "8ecf43cc-f4db-4653-bc33-b7f9a412d7c5",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "### Insira os dados aqui!\nDate Preset\nTelefone\nNome\n",
+        "width": 200
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        20,
+        -120
+      ],
+      "typeVersion": 1,
+      "id": "1ddf072c-cf83-4295-a3ba-b834efbf871e",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 💠 Criado por @prof.palomasilva - Automação Inteligente com n8n & IA 💠\n\nconst input = items[0].json.data;\nconst threshold = parseFloat($node[\"Data1\"].json[\"Percentual Outliers Positivos\"]) / 100;\n\nfunction parseNumber(value) {\n  const num = parseFloat(value);\n  return isNaN(num) ? 0 : num;\n}\n\nlet totalSpend = 0;\nlet totalCTR = 0;\nlet totalCPC = 0;\nlet totalROAS = 0;\nlet totalLeads = 0;\nlet totalPurchases = 0;\nlet totalRevenue = 0;\nlet totalCPA = 0;\nlet countCTR = 0;\nlet countCPC = 0;\nlet countROAS = 0;\nlet countCPA = 0;\n\nlet creatives = [];\n\ninput.forEach(ad => {\n  const spend = parseNumber(ad.spend);\n  const ctr = parseNumber(ad.ctr);\n  const cpc = parseNumber(ad.cpc);\n  const frequency = parseNumber(ad.frequency);\n  const reach = parseNumber(ad.reach);\n  const impressions = parseNumber(ad.impressions);\n\n  let leads = 0;\n  let purchases = 0;\n  let revenue = 0;\n\n  ad.actions?.forEach(action => {\n    if (action.action_type === 'lead') leads += parseNumber(action.value);\n    if (action.action_type.includes('purchase')) {\n      purchases += parseNumber(action.value);\n    }\n  });\n\n  ad.purchase_roas?.forEach(roas => {\n    revenue += parseNumber(roas.value);\n  });\n\n  totalSpend += spend;\n  if (ctr > 0) { totalCTR += ctr; countCTR++; }\n  if (cpc > 0) { totalCPC += cpc; countCPC++; }\n  if (revenue > 0 && spend > 0) { totalROAS += revenue / spend; countROAS++; }\n  if (leads > 0) { totalLeads += leads; }\n  if (purchases > 0) { totalPurchases += purchases; }\n\n  let totalConversions = leads + purchases;\n  let cpa = (spend > 0 && totalConversions > 0) ? spend / totalConversions : 0;\n  if (cpa > 0) { totalCPA += cpa; countCPA++; }\n\n  creatives.push({\n    ad_id: ad.ad_id,\n    ad_name: ad.ad_name,\n    adset_name: ad.adset_name,\n    campaign_name: ad.campaign_name,\n    objective: ad.objective,\n    spend,\n    ctr,\n    cpc,\n    frequency,\n    reach,\n    impressions,\n    leads,\n    purchases,\n    revenue,\n    roas: (revenue && spend) ? revenue / spend : 0,\n    cpl: (leads > 0) ? spend / leads : 0,\n    cpa\n  });\n});\n\nconst avgCTR = countCTR ? totalCTR / countCTR : 0;\nconst avgCPC = countCPC ? totalCPC / countCPC : 0;\nconst avgROAS = countROAS ? totalROAS / countROAS : 0;\nconst avgCPL = (totalLeads > 0) ? totalSpend / totalLeads : 0;\nconst avgCPA = countCPA ? totalCPA / countCPA : 0;\n\nfunction evaluate(ad) {\n  let tags = [];\n\n  if (ad.cpa > 0 && ad.cpa <= avgCPA * (1 - threshold)) {\n    const diff = ((avgCPA - ad.cpa) / avgCPA) * 100;\n    tags.push(`🏅 CPA ${Math.round(diff)}% abaixo da média (R$${ad.cpa.toFixed(2)} vs R$${avgCPA.toFixed(2)})`);\n  }\n\n  if (ad.objective.includes('LEADS')) {\n    if (ad.cpl > 0 && ad.cpl <= avgCPL * (1 - threshold)) {\n      const diff = ((avgCPL - ad.cpl) / avgCPL) * 100;\n      tags.push(`📉 CPL ${Math.round(diff)}% abaixo da média (R$${ad.cpl.toFixed(2)} vs R$${avgCPL.toFixed(2)})`);\n    }\n  }\n\n  if (ad.objective.includes('SALES')) {\n    if (ad.roas >= avgROAS * (1 + threshold)) {\n      const diff = ((ad.roas - avgROAS) / avgROAS) * 100;\n      tags.push(`💰 ROAS ${Math.round(diff)}% acima da média (${ad.roas.toFixed(2)} vs ${avgROAS.toFixed(2)})`);\n    }\n  }\n\n  if (ad.ctr >= avgCTR * (1 + threshold)) {\n    const diff = ((ad.ctr - avgCTR) / avgCTR) * 100;\n    tags.push(`🔥 CTR ${Math.round(diff)}% acima da média (${ad.ctr.toFixed(2)}% vs ${avgCTR.toFixed(2)}%)`);\n  }\n\n  if (ad.cpc > 0 && ad.cpc <= avgCPC * (1 - threshold)) {\n    const diff = ((avgCPC - ad.cpc) / avgCPC) * 100;\n    tags.push(`💸 CPC ${Math.round(diff)}% abaixo da média (R$${ad.cpc.toFixed(2)} vs R$${avgCPC.toFixed(2)})`);\n  }\n\n  return tags;\n}\n\nconst detailed = creatives.map(ad => {\n  const tags = evaluate(ad);\n  return {\n    ad_name: ad.ad_name,\n    ad_id: ad.ad_id,\n    adset_name: ad.adset_name,\n    campaign_name: ad.campaign_name,\n    objective: ad.objective,\n    spend: ad.spend,\n    ctr: ad.ctr,\n    cpc: ad.cpc,\n    leads: ad.leads,\n    cpl: ad.cpl,\n    cpa: ad.cpa,\n    purchases: ad.purchases,\n    roas: ad.roas,\n    revenue: ad.revenue,\n    reach: ad.reach,\n    impressions: ad.impressions,\n    frequency: ad.frequency,\n    desempenho: tags.join(' | ')\n  };\n});\n\nconst filtered = detailed.filter(d => d.desempenho.length > 0);\n\nreturn filtered.map(f => ({ json: f }));\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        720
+      ],
+      "id": "3df95116-4bd3-40d2-96b9-4d33a3af24fe",
+      "name": "Outliers Positivos"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 💠 Criado por @prof.palomasilva - Automação Inteligente com n8n & IA 💠\n\nconst input = items[0].json.data;\nconst threshold = parseFloat($node[\"Data1\"].json[\"Percentual Outliers Negativos\"]) / 100;\n\nfunction parseNumber(value) {\n  const num = parseFloat(value);\n  return isNaN(num) ? 0 : num;\n}\n\nlet totalSpend = 0;\nlet totalCTR = 0;\nlet totalCPC = 0;\nlet totalROAS = 0;\nlet totalLeads = 0;\nlet totalPurchases = 0;\nlet totalRevenue = 0;\nlet totalCPA = 0;\nlet countCTR = 0;\nlet countCPC = 0;\nlet countROAS = 0;\nlet countCPA = 0;\n\nlet creatives = [];\n\ninput.forEach(ad => {\n  const spend = parseNumber(ad.spend);\n  const ctr = parseNumber(ad.ctr);\n  const cpc = parseNumber(ad.cpc);\n  const frequency = parseNumber(ad.frequency);\n  const reach = parseNumber(ad.reach);\n  const impressions = parseNumber(ad.impressions);\n\n  let leads = 0;\n  let purchases = 0;\n  let revenue = 0;\n\n  ad.actions?.forEach(action => {\n    if (action.action_type === 'lead') leads += parseNumber(action.value);\n    if (action.action_type.includes('purchase')) {\n      purchases += parseNumber(action.value);\n    }\n  });\n\n  ad.purchase_roas?.forEach(roas => {\n    revenue += parseNumber(roas.value);\n  });\n\n  totalSpend += spend;\n  if (ctr > 0) { totalCTR += ctr; countCTR++; }\n  if (cpc > 0) { totalCPC += cpc; countCPC++; }\n  if (revenue > 0 && spend > 0) { totalROAS += revenue / spend; countROAS++; }\n  if (leads > 0) { totalLeads += leads; }\n  if (purchases > 0) { totalPurchases += purchases; }\n\n  let totalConversions = leads + purchases;\n  let cpa = (spend > 0 && totalConversions > 0) ? spend / totalConversions : 0;\n  if (cpa > 0) { totalCPA += cpa; countCPA++; }\n\n  creatives.push({\n    ad_id: ad.ad_id,\n    ad_name: ad.ad_name,\n    adset_name: ad.adset_name,\n    campaign_name: ad.campaign_name,\n    objective: ad.objective,\n    spend,\n    ctr,\n    cpc,\n    frequency,\n    reach,\n    impressions,\n    leads,\n    purchases,\n    revenue,\n    roas: (revenue && spend) ? revenue / spend : 0,\n    cpl: (leads > 0) ? spend / leads : 0,\n    cpa\n  });\n});\n\nconst avgCTR = countCTR ? totalCTR / countCTR : 0;\nconst avgCPC = countCPC ? totalCPC / countCPC : 0;\nconst avgROAS = countROAS ? totalROAS / countROAS : 0;\nconst avgCPL = (totalLeads > 0) ? totalSpend / totalLeads : 0;\nconst avgCPA = countCPA ? totalCPA / countCPA : 0;\n\nfunction evaluateNegative(ad) {\n  let tags = [];\n\n  if (ad.cpa >= avgCPA * (1 + threshold)) {\n    const diff = ((ad.cpa - avgCPA) / avgCPA) * 100;\n    tags.push(`⚠️ CPA ${Math.round(diff)}% acima da média (R$${ad.cpa.toFixed(2)} vs R$${avgCPA.toFixed(2)})`);\n  }\n\n  if (ad.objective.includes('LEADS')) {\n    if (ad.cpl >= avgCPL * (1 + threshold)) {\n      const diff = ((ad.cpl - avgCPL) / avgCPL) * 100;\n      tags.push(`📈 CPL ${Math.round(diff)}% acima da média (R$${ad.cpl.toFixed(2)} vs R$${avgCPL.toFixed(2)})`);\n    }\n  }\n\n  if (ad.objective.includes('SALES')) {\n    if (ad.roas <= avgROAS * (1 - threshold)) {\n      const diff = ((avgROAS - ad.roas) / avgROAS) * 100;\n      tags.push(`📉 ROAS ${Math.round(diff)}% abaixo da média (${ad.roas.toFixed(2)} vs ${avgROAS.toFixed(2)})`);\n    }\n  }\n\n  if (ad.ctr <= avgCTR * (1 - threshold)) {\n    const diff = ((avgCTR - ad.ctr) / avgCTR) * 100;\n    tags.push(`🔻 CTR ${Math.round(diff)}% abaixo da média (${ad.ctr.toFixed(2)}% vs ${avgCTR.toFixed(2)}%)`);\n  }\n\n  if (ad.cpc >= avgCPC * (1 + threshold)) {\n    const diff = ((ad.cpc - avgCPC) / avgCPC) * 100;\n    tags.push(`💰 CPC ${Math.round(diff)}% acima da média (R$${ad.cpc.toFixed(2)} vs R$${avgCPC.toFixed(2)})`);\n  }\n\n  return tags;\n}\n\nconst detailed = creatives.map(ad => {\n  const tags = evaluateNegative(ad);\n  return {\n    ad_name: ad.ad_name,\n    ad_id: ad.ad_id,\n    adset_name: ad.adset_name,\n    campaign_name: ad.campaign_name,\n    objective: ad.objective,\n    spend: ad.spend,\n    ctr: ad.ctr,\n    cpc: ad.cpc,\n    leads: ad.leads,\n    cpl: ad.cpl,\n    cpa: ad.cpa,\n    purchases: ad.purchases,\n    roas: ad.roas,\n    revenue: ad.revenue,\n    reach: ad.reach,\n    impressions: ad.impressions,\n    frequency: ad.frequency,\n    desempenho: tags.join(' | ')\n  };\n});\n\nconst filtered = detailed.filter(d => d.desempenho.length > 0);\n\nreturn filtered.map(f => ({ json: f }));\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        640,
+        1100
+      ],
+      "id": "fc218a9c-cbea-453e-8af8-20c3eb06db74",
+      "name": "Outliers Negativos"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $('Data1').item.json[\"ID Sheets Ranking de Criativos\"] }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Top",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1h57v8RTdBzc8lvgTpqfJk79_oelKGkBESPDdjUD-Ic0/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {
+            "ad_id": "={{ $json.ad_id }}",
+            "desempenho": "={{ $json.desempenho }}"
+          },
+          "matchingColumns": [
+            "ad_id"
+          ],
+          "schema": [
+            {
+              "id": "desempenho",
+              "displayName": "desempenho",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "ad_name",
+              "displayName": "ad_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "tipo",
+              "displayName": "tipo",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "campaign_name",
+              "displayName": "campaign_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "adset_name",
+              "displayName": "adset_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "spend",
+              "displayName": "spend",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "ctr",
+              "displayName": "ctr",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cpc",
+              "displayName": "cpc",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "leads",
+              "displayName": "leads",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cpl",
+              "displayName": "cpl",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "purchases",
+              "displayName": "purchases",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "roas",
+              "displayName": "roas",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "revenue",
+              "displayName": "revenue",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "reach",
+              "displayName": "reach",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "frequency",
+              "displayName": "frequency",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "impressions",
+              "displayName": "impressions",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cpa",
+              "displayName": "cpa",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "ad_id",
+              "displayName": "ad_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "objective",
+              "displayName": "objective",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "creative title",
+              "displayName": "creative title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "creative body",
+              "displayName": "creative body",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description",
+              "displayName": "description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cta type",
+              "displayName": "cta type",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url cta",
+              "displayName": "url cta",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url media",
+              "displayName": "url media",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url instagram",
+              "displayName": "url instagram",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "created_time",
+              "displayName": "created_time",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "transcription",
+              "displayName": "transcription",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "adset_id",
+              "displayName": "adset_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "campaign_id",
+              "displayName": "campaign_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "account_id",
+              "displayName": "account_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "checked",
+              "displayName": "checked",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        720,
+        720
+      ],
+      "id": "15361f91-0de5-47b2-a38a-eb2d54e79e99",
+      "name": "Append/Update Positivos"
+    },
+    {
+      "parameters": {
+        "operation": "appendOrUpdate",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $('Data1').item.json[\"ID Sheets Ranking de Criativos\"] }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 637420599,
+          "mode": "list",
+          "cachedResultName": "Piores",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1h57v8RTdBzc8lvgTpqfJk79_oelKGkBESPDdjUD-Ic0/edit#gid=637420599"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "desempenho",
+              "displayName": "desempenho",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "ad_name",
+              "displayName": "ad_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "tipo",
+              "displayName": "tipo",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "campaign_name",
+              "displayName": "campaign_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "adset_name",
+              "displayName": "adset_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "spend",
+              "displayName": "spend",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "ctr",
+              "displayName": "ctr",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cpc",
+              "displayName": "cpc",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "leads",
+              "displayName": "leads",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cpl",
+              "displayName": "cpl",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "purchases",
+              "displayName": "purchases",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "roas",
+              "displayName": "roas",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "revenue",
+              "displayName": "revenue",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "reach",
+              "displayName": "reach",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "frequency",
+              "displayName": "frequency",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "impressions",
+              "displayName": "impressions",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cpa",
+              "displayName": "cpa",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "ad_id",
+              "displayName": "ad_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "objective",
+              "displayName": "objective",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "creative title",
+              "displayName": "creative title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "creative body",
+              "displayName": "creative body",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description",
+              "displayName": "description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cta type",
+              "displayName": "cta type",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url cta",
+              "displayName": "url cta",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url media",
+              "displayName": "url media",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url instagram",
+              "displayName": "url instagram",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "created_time",
+              "displayName": "created_time",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "transcription",
+              "displayName": "transcription",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "adset_id",
+              "displayName": "adset_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "campaign_id",
+              "displayName": "campaign_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "checked",
+              "displayName": "checked",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        720,
+        940
+      ],
+      "id": "d1352bf2-69ae-4b3e-9a0d-7bada8b1fd35",
+      "name": "Append/Update Negativos"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -140,
+        820
+      ],
+      "id": "30b0241a-966b-40be-9f73-e396679e9a13",
+      "name": "Schedule Trigger1"
+    },
+    {
+      "parameters": {
+        "graphApiVersion": "v22.0",
+        "node": "={{ $node[\"Data1\"].json[\"Conta de Anúncios\"] }}",
+        "edge": "insights",
+        "options": {
+          "fields": {
+            "field": [
+              {
+                "name": "campaign_name,ad_id,adset_name,ad_name,objective,reach,impressions,frequency,actions,action_values,cost_per_action_type,cpm,ctr,cpc,spend,canvas_avg_view_percent,canvas_avg_view_time,conversion_values,instant_experience_clicks_to_start,purchase_roas,video_30_sec_watched_actions,video_avg_time_watched_actions,video_continuous_2_sec_watched_actions,video_p100_watched_actions,video_p25_watched_actions,video_p50_watched_actions,video_p75_watched_actions,video_p95_watched_actions,video_play_retention_0_to_15s_actions,video_play_retention_20_to_60s_actions"
+              }
+            ]
+          },
+          "queryParameters": {
+            "parameter": [
+              {
+                "name": "level",
+                "value": "ad"
+              },
+              {
+                "name": "date_preset",
+                "value": "={{ $json['Date Preset'] }}"
+              },
+              {
+                "name": "limit",
+                "value": "999"
+              }
+            ]
+          }
+        }
+      },
+      "id": "9f50d23a-bf8d-4cce-a830-2948b3248990",
+      "name": "Fetch Metrics1",
+      "type": "n8n-nodes-base.facebookGraphApi",
+      "typeVersion": 1,
+      "position": [
+        240,
+        820
+      ],
+      "retryOnFail": false,
+      "maxTries": 5,
+      "waitBetweenTries": 5000,
+      "executeOnce": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "fbb50a91-4f75-4858-a166-2e1447fa754d",
+              "name": "Conta de Anúncios",
+              "value": "act_123456789010",
+              "type": "string"
+            },
+            {
+              "id": "728ebf1c-8554-4441-82b4-7961923bf5f7",
+              "name": "Date Preset",
+              "value": "last_30d",
+              "type": "string"
+            },
+            {
+              "id": "506f9cbe-ebb8-4958-b5a4-eff96070471a",
+              "name": "Percentual Outliers Positivos",
+              "value": "40%",
+              "type": "string"
+            },
+            {
+              "id": "17891fc9-cfba-4477-88d4-5320221812e9",
+              "name": "Percentual Outliers Negativos",
+              "value": "30%",
+              "type": "string"
+            },
+            {
+              "id": "8d88c137-383f-4307-b3cc-1f6a560ea67b",
+              "name": "telefone",
+              "value": "=55119999999",
+              "type": "string"
+            },
+            {
+              "id": "a36b66cb-a00f-4734-ba0c-0ec31a6835e5",
+              "name": "Nome Completo",
+              "value": "=Bobbynho Te Amo",
+              "type": "string"
+            },
+            {
+              "id": "ccb4cf45-f410-4022-b8ee-e0685ce4f532",
+              "name": "Inbox",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "15f1d4c0-ee60-42ac-869d-f80970e24bb6",
+              "name": "Message ID",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "fcad4f0f-c9db-4aee-b362-0d0b414adb2c",
+              "name": "Conversation ID",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "01b2c245-fee6-4d3e-a3ae-ee425dd75d8a",
+              "name": "Account ID",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "ae84878b-b163-41d2-bc57-6a74daec8a12",
+              "name": "Account Name",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "01d04d3c-a6ea-42b1-bdf7-f4e179a1ed08",
+              "name": "URL ChatWoot",
+              "value": "https://atendimento.fulanodetal.com",
+              "type": "string"
+            },
+            {
+              "id": "533bf819-08ac-491a-b181-6b5388945daf",
+              "name": "URL Evolution",
+              "value": "https://evo.fulanodetal.com",
+              "type": "string"
+            },
+            {
+              "id": "7ba6a381-c07a-4c79-a4df-330447933eed",
+              "name": "Instância Evolution",
+              "value": "FulanoDeTal",
+              "type": "string"
+            },
+            {
+              "id": "869226de-36b7-4708-a7d4-ce52ca2a9459",
+              "name": "ID Grupo",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "959a1a8e-4330-4dd0-b2ac-375872e78392",
+              "name": "ID Sheets Ranking de Criativos",
+              "value": "16LVDNtBKQXeDW6x3_RYPSYudHaaMGKljJtMNd5s6iVk",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "b383d03d-de36-4085-aec9-904e9b82bfff",
+      "name": "Data1",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        60,
+        820
+      ]
+    },
+    {
+      "parameters": {
+        "content": "### Defina aqui\n1. Date preset (período)\n2. Critério para outliers positivos \n3. Critério para outliers postiivos",
+        "width": 200
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        0,
+        640
+      ],
+      "typeVersion": 1,
+      "id": "1bba6f90-5bb2-4156-8a51-1a18d3187ada",
+      "name": "Sticky Note3"
+    },
+    {
+      "parameters": {
+        "content": "### Link da Planilha Aqui\n[Clique aqui para copiar](https://docs.google.com/spreadsheets/d/1h57v8RTdBzc8lvgTpqfJk79_oelKGkBESPDdjUD-Ic0/copy)",
+        "height": 100
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -40,
+        1060
+      ],
+      "typeVersion": 1,
+      "id": "4d4ea7b2-aae9-425a-b8e8-13b5ab2929ca",
+      "name": "Sticky Note4"
+    },
+    {
+      "parameters": {
+        "url": "=https://graph.facebook.com/v22.0/{{ $json.ad_id }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "facebookGraphApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "fields",
+              "value": "id,name,adset_id,campaign_id,account_id,bid_amount,configured_status,conversion_domain,created_time,effective_status,last_updated_by_app_id,recommendations,source_ad_id,updated_time,creative{body,title,image_url,call_to_action_type,asset_feed_spec,category_media_source,effective_instagram_media_id,instagram_permalink_url,link_destination_display_url,link_url,object_store_url,object_type,object_url,video_id,object_story_spec{link_data,photo_data,video_data,text_data}}\n"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -2740,
+        2040
+      ],
+      "id": "4ad92fa1-8980-44b5-be0e-4ea34b13205e",
+      "name": "Get: Detalhes do Anúncio"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "27b00ba2-7043-4e29-adb7-f87a07daf97f",
+                    "leftValue": "={{ $json[\"creative\"][\"image_url\"] }}",
+                    "rightValue": "https://scontent",
+                    "operator": {
+                      "type": "string",
+                      "operation": "contains"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Image URL"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ \n  ($json[\"creative\"][\"asset_feed_spec\"] && $json[\"creative\"][\"asset_feed_spec\"][\"images\"] && $json[\"creative\"][\"asset_feed_spec\"][\"images\"].length > 0) \n  || \n  ($json[\"creative\"][\"image_url\"] && $json[\"creative\"][\"image_url\"] !== \"\") \n}}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "boolean",
+                      "operation": "true",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Imagem Hash"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "06568e39-6101-450c-b5de-b71ac9981cf4",
+                    "leftValue": "={{ $json[\"creative\"][\"effective_instagram_media_id\"] !== undefined\n&& $json[\"creative\"][\"effective_instagram_media_id\"] !== \"\"\n&& $json[\"creative\"][\"object_type\"] !== \"VIDEO\"\n&& (\n  !$json[\"creative\"][\"asset_feed_spec\"]\n  || !$json[\"creative\"][\"asset_feed_spec\"][\"videos\"]\n  || $json[\"creative\"][\"asset_feed_spec\"][\"videos\"].length === 0\n)}}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "boolean",
+                      "operation": "true",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Instagram Image"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "6fdaf976-9348-40d0-a5f4-d14def719653",
+                    "leftValue": "={{ \n  $json[\"creative\"][\"effective_instagram_media_id\"] !== undefined \n  && $json[\"creative\"][\"effective_instagram_media_id\"] !== \"\" \n  && $json[\"creative\"][\"asset_feed_spec\"] \n  && $json[\"creative\"][\"asset_feed_spec\"][\"videos\"] \n  && $json[\"creative\"][\"asset_feed_spec\"][\"videos\"].length > 0 \n}}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "boolean",
+                      "operation": "true",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Instagram Reels "
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "12b8947e-086c-4ecd-9672-d56369a88f63",
+                    "leftValue": "={{ !!($json[\"creative\"][\"video_id\"] || $json[\"creative\"][\"object_story_spec\"][\"video_data\"][\"video_id\"]) }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "boolean",
+                      "operation": "true",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Vídeo Story"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "6823c0cf-8251-4832-88d2-9b39ba5a685b",
+                    "leftValue": "={{ $json.creative.asset_feed_spec.asset_customization_rules[0].customization_spec.facebook_positions }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "array",
+                      "operation": "notEmpty",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Other"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -2300,
+        2020
+      ],
+      "id": "33915404-fde0-4bff-a93d-1094d4013b95",
+      "name": "Tipo"
+    },
+    {
+      "parameters": {
+        "url": "https://graph.facebook.com/v22.0/act_465146026883364/adimages",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "facebookGraphApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "fields",
+              "value": "permalink_url,hash"
+            },
+            {
+              "name": "hashes",
+              "value": "=[\"{{ $node[\"Get: Detalhes do Anúncio\"].json[\"creative\"][\"asset_feed_spec\"][\"images\"][\"0\"][\"hash\"] }}\"]"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -2000,
+        1700
+      ],
+      "id": "f8d6e9ac-4a03-49c8-ae29-53a648cf5bd9",
+      "name": "Get Ad Image (via Hash)"
+    },
+    {
+      "parameters": {
+        "resource": "audio",
+        "operation": "transcribe",
+        "options": {
+          "temperature": 0.2
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -1600,
+        2100
+      ],
+      "id": "375530bc-c15f-4526-9ef0-9e7130b469fb",
+      "name": "Transcrever"
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "operation": "analyze",
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "text": "Descreva esse criativo para que seja analisado posteriormente pelo estrategista",
+        "imageUrls": "={{ $json.data[0].permalink_url }}{{ $json.media_url }}",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -1780,
+        1840
+      ],
+      "id": "49ae176a-ecd6-4c45-8a45-fdba9fa718cb",
+      "name": "Análise de Imagem"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.source }}{{ $json.media_url }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1800,
+        2100
+      ],
+      "id": "7c4c4f1e-ca8a-42be-ad89-12da85069375",
+      "name": "Download Video"
+    },
+    {
+      "parameters": {
+        "resource": "image",
+        "operation": "analyze",
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4O-MINI"
+        },
+        "text": "Descreva esse criativo para que seja analisado posteriormente pelo estrategista",
+        "imageUrls": "={{ $json.creative.image_url }}",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -2000,
+        1520
+      ],
+      "id": "2a4e92ba-fa6d-4667-98ce-a9d744c99a56",
+      "name": "Análise de Imagem URL"
+    },
+    {
+      "parameters": {
+        "url": "=https://graph.facebook.com/v22.0/{{ $json[\"creative\"][\"effective_instagram_media_id\"] }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "facebookGraphApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "fields",
+              "value": "media_url,media_type,thumbnail_url,caption"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -2000,
+        1920
+      ],
+      "id": "602019da-7f00-4779-8c91-651527dbbcfe",
+      "name": "Instagram: Get Media"
+    },
+    {
+      "parameters": {
+        "url": "=https://graph.facebook.com/v22.0/{{ $json.creative.effective_instagram_media_id }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "facebookGraphApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "fields",
+              "value": "media_url,media_type,thumbnail_url,caption"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -2000,
+        2100
+      ],
+      "id": "cf17d2d9-73db-4728-8f6c-8fb41b0171f6",
+      "name": "Instagram: Get Reels"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        -2000,
+        2300
+      ],
+      "id": "59dfb7fa-d471-4498-b6e6-025208c66379",
+      "name": "Other"
+    },
+    {
+      "parameters": {
+        "jsCode": "// 💠 Criado por @prof.palomasilva - Automação Inteligente com n8n & IA 💠\n\n// Verificar qual entrada veio (imagem, transcrição ou análise URL)\nlet transcriptionOrAnalysis = '';\nlet mediaUrl = '';\nlet tipoCriativo = '';\n\nconst ad = $node[\"Get: Detalhes do Anúncio\"].json;\n\n// Flags\nconst isVideo = !!(ad.creative?.video_id || ad.creative?.object_story_spec?.video_data?.video_id);\nconst isImage = ad.creative?.asset_feed_spec?.images?.length > 0;\nconst isImageUrl = ad.creative?.image_url && ad.creative.image_url.includes(\"https\");\nconst isInstagramMedia = ad.creative?.effective_instagram_media_id && ad.creative?.object_type !== \"VIDEO\";\nconst isInstagramReels = ad.creative?.effective_instagram_media_id && ad.creative?.object_type === \"VIDEO\";\n\n// Verifica de onde veio a execução (positivo ou negativo)\nlet veioDeOutlierPositivo = false;\nlet veioDeOutlierNegativo = false;\n\ntry {\n  veioDeOutlierPositivo = !!$node[\"Outliers + 1x1\"]?.json?.ad_id;\n} catch (e) {}\ntry {\n  veioDeOutlierNegativo = !!$node[\"Outliers - 1x\"]?.json?.ad_id;\n} catch (e) {}\n\n// Percorrer entradas (pois vem como array quando múltiplas conexões)\nitems.forEach(entry => {\n  if (entry.json?.content) {\n    // Caso análise de imagem ou URL\n    transcriptionOrAnalysis = entry.json.content;\n  }\n  if (entry.json?.text) {\n    // Caso transcrição de vídeo\n    transcriptionOrAnalysis = entry.json.text;\n  }\n});\n\n// Definir Media URL e Tipo Criativo\ntry {\n  if (isVideo || isInstagramReels) {\n    mediaUrl = $node[\"Get Video URL\"]?.json?.source || $node[\"Instagram: Get Reels\"]?.json?.media_url || '';\n    tipoCriativo = isInstagramReels ? 'INSTAGRAM_REELS' : 'VIDEO_FEED';\n  }\n  if (isImage) {\n    mediaUrl = $node[\"Get Ad Image (via Hash)\"]?.json?.data?.[0]?.permalink_url || '';\n    tipoCriativo = 'IMAGEM';\n  }\n  if (isImageUrl) {\n    mediaUrl = ad.creative.image_url;\n    tipoCriativo = 'IMAGEM';\n  }\n  if (isInstagramMedia) {\n    mediaUrl = $node[\"Instagram: Get Media\"]?.json?.media_url || '';\n    tipoCriativo = 'INSTAGRAM_IMAGE';\n  }\n} catch (e) {}\n\n// Retorno final\nreturn [\n  {\n    json: {\n      creative_title: ad.creative?.title || '',\n      creative_body: ad.creative?.body || '',\n      description: ad.creative?.asset_feed_spec?.descriptions?.[0]?.text || '',\n      cta_type: ad.creative?.call_to_action_type || '',\n      url_cta: ad.creative?.asset_feed_spec?.link_urls?.[0]?.website_url || '',\n      url_media: mediaUrl,\n      url_instagram: ad.creative?.instagram_permalink_url || '',\n      status: ad.configured_status || '',\n      created_time: ad.created_time || '',\n      tipo_criativo: tipoCriativo,\n      transcription_or_analysis: transcriptionOrAnalysis,\n\n      // Origem da execução\n      origem_outlier: veioDeOutlierPositivo ? 'POSITIVO' : (veioDeOutlierNegativo ? 'NEGATIVO' : 'DESCONHECIDO'),\n      is_outlier_positivo: veioDeOutlierPositivo,\n      is_outlier_negativo: veioDeOutlierNegativo,\n\n      // Adicionais:\n      adset_id: ad.adset_id || '',\n      campaign_id: ad.campaign_id || '',\n      account_id: ad.account_id || ''\n    }\n  }\n];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1340,
+        2020
+      ],
+      "id": "a46ecf0b-a65e-424d-b75d-bbb0bb49f83b",
+      "name": "Mapping"
+    },
+    {
+      "parameters": {
+        "options": {
+          "reset": "={{ $node[\"Outliers + 1x1\"].context[\"done\"] }}"
+        }
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -3120,
+        1980
+      ],
+      "id": "049680da-4460-4a1d-a479-0f9e0c239d84",
+      "name": "Outliers + 1x1"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.is_outlier_positivo }}",
+                    "rightValue": "",
+                    "operator": {
+                      "type": "boolean",
+                      "operation": "true",
+                      "singleValue": true
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Positivo"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra",
+          "renameFallbackOutput": "Negativo"
+        }
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -1160,
+        2020
+      ],
+      "id": "2ca4b6b9-f574-49a4-b7e4-2d39f028b1eb",
+      "name": "Outlier Kind"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $node[\"Data2\"].json[\"ID Sheets Ranking de Criativos\"] }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Top",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/16LVDNtBKQXeDW6x3_RYPSYudHaaMGKljJtMNd5s6iVk/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "row_number": "={{ $node[\"Outliers + 1x1\"].json[\"row_number\"] }}",
+            "tipo": "={{ $json.tipo_criativo }}",
+            "creative title": "={{ $json.creative_title }}",
+            "creative body": "={{ $json.creative_body }}",
+            "description": "={{ $json.description }}",
+            "cta type": "={{ $json.cta_type }}",
+            "url cta": "={{ $json.url_cta }}",
+            "url media": "={{ $json.url_media }}",
+            "url instagram": "={{ $json.url_instagram }}",
+            "status": "={{ $json.status }}",
+            "created_time": "={{ $json.created_time }}",
+            "transcription": "={{ $node[\"Mapping\"].json[\"transcription_or_analysis\"] }}",
+            "checked": "✅",
+            "adset_id": "={{ $json.adset_id }}",
+            "campaign_id": "={{ $json.campaign_id }}",
+            "desempenho": "={{ $('Outliers + 1x1').item.json.desempenho }}",
+            "ad_name": "={{ $('Outliers + 1x1').item.json.ad_name }}",
+            "campaign_name": "={{ $('Outliers + 1x1').item.json.campaign_name }}",
+            "adset_name": "={{ $('Outliers + 1x1').item.json.adset_name }}",
+            "spend": "={{ $('Outliers + 1x1').item.json.spend }}",
+            "ctr": "={{ $('Outliers + 1x1').item.json.ctr }}",
+            "cpc": "={{ $('Outliers + 1x1').item.json.cpc }}",
+            "leads": "={{ $('Outliers + 1x1').item.json.leads }}",
+            "cpl": "={{ $('Outliers + 1x1').item.json.cpl }}",
+            "purchases": "={{ $('Outliers + 1x1').item.json.purchases }}",
+            "roas": "={{ $('Outliers + 1x1').item.json.roas }}",
+            "revenue": "={{ $('Outliers + 1x1').item.json.revenue }}",
+            "reach": "={{ $('Outliers + 1x1').item.json.reach }}",
+            "frequency": "={{ $('Outliers + 1x1').item.json.frequency }}",
+            "impressions": "={{ $('Outliers + 1x1').item.json.impressions }}",
+            "cpa": "={{ $('Outliers + 1x1').item.json.cpa }}",
+            "ad_id": "={{ $('Outliers + 1x1').item.json.ad_id }}",
+            "objective": "={{ $('Outliers + 1x1').item.json.objective }}"
+          },
+          "matchingColumns": [
+            "row_number"
+          ],
+          "schema": [
+            {
+              "id": "desempenho",
+              "displayName": "desempenho",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "ad_name",
+              "displayName": "ad_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "tipo",
+              "displayName": "tipo",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "campaign_name",
+              "displayName": "campaign_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "adset_name",
+              "displayName": "adset_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "spend",
+              "displayName": "spend",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "ctr",
+              "displayName": "ctr",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "cpc",
+              "displayName": "cpc",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "leads",
+              "displayName": "leads",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "cpl",
+              "displayName": "cpl",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "purchases",
+              "displayName": "purchases",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "roas",
+              "displayName": "roas",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "revenue",
+              "displayName": "revenue",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "reach",
+              "displayName": "reach",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "frequency",
+              "displayName": "frequency",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "impressions",
+              "displayName": "impressions",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "cpa",
+              "displayName": "cpa",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "ad_id",
+              "displayName": "ad_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "objective",
+              "displayName": "objective",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "creative title",
+              "displayName": "creative title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "creative body",
+              "displayName": "creative body",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description",
+              "displayName": "description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cta type",
+              "displayName": "cta type",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url cta",
+              "displayName": "url cta",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url media",
+              "displayName": "url media",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url instagram",
+              "displayName": "url instagram",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "created_time",
+              "displayName": "created_time",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "transcription",
+              "displayName": "transcription",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "adset_id",
+              "displayName": "adset_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "campaign_id",
+              "displayName": "campaign_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "account_id",
+              "displayName": "account_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "checked",
+              "displayName": "checked",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "row_number",
+              "displayName": "row_number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "readOnly": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        -820,
+        1960
+      ],
+      "id": "26a48f6a-1d47-4d22-97c5-5c3829040ddb",
+      "name": "Update Positivos"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $node[\"Data2\"].json[\"ID Sheets Ranking de Criativos\"] }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 637420599,
+          "mode": "list",
+          "cachedResultName": "Piores",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/16LVDNtBKQXeDW6x3_RYPSYudHaaMGKljJtMNd5s6iVk/edit#gid=637420599"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "row_number": "={{ $node[\"Outliers - 1x\"].json[\"row_number\"] }}",
+            "tipo": "={{ $json.tipo_criativo }}",
+            "creative title": "={{ $json.creative_title }}",
+            "creative body": "={{ $json.creative_body }}",
+            "description": "={{ $json.description }}",
+            "cta type": "={{ $json.cta_type }}",
+            "url cta": "={{ $json.url_cta }}",
+            "url media": "={{ $json.url_media }}",
+            "url instagram": "={{ $json.url_instagram }}",
+            "status": "={{ $json.status }}",
+            "created_time": "={{ $json.created_time }}",
+            "transcription": "={{ $node[\"Mapping\"].json[\"transcription_or_analysis\"] }}",
+            "checked": "✅",
+            "adset_id": "={{ $json.adset_id }}",
+            "campaign_id": "={{ $json.campaign_id }}",
+            "desempenho": "={{ $('Outliers - 1x').item.json.desempenho }}",
+            "ad_name": "={{ $('Outliers - 1x').item.json.ad_name }}",
+            "campaign_name": "={{ $('Outliers + 1x1').item.json.campaign_name }}",
+            "adset_name": "={{ $('Outliers - 1x').item.json.adset_name }}",
+            "spend": "={{ $('Outliers - 1x').item.json.spend }}",
+            "ctr": "={{ $('Outliers - 1x').item.json.ctr }}",
+            "cpc": "={{ $('Outliers - 1x').item.json.cpc }}",
+            "leads": "={{ $('Outliers + 1x1').item.json.leads }}",
+            "cpl": "={{ $('Outliers + 1x1').item.json.cpl }}",
+            "purchases": "={{ $('Outliers + 1x1').item.json.purchases }}",
+            "roas": "={{ $('Outliers + 1x1').item.json.roas }}",
+            "revenue": "={{ $('Outliers - 1x').item.json.revenue }}",
+            "reach": "={{ $('Outliers - 1x').item.json.reach }}",
+            "frequency": "={{ $('Outliers - 1x').item.json.frequency }}",
+            "impressions": "={{ $('Outliers - 1x').item.json.impressions }}",
+            "cpa": "={{ $('Outliers - 1x').item.json.cpa }}",
+            "ad_id": "={{ $('Outliers - 1x').item.json.ad_id }}",
+            "objective": "={{ $('Outliers - 1x').item.json.objective }}"
+          },
+          "matchingColumns": [
+            "row_number"
+          ],
+          "schema": [
+            {
+              "id": "desempenho",
+              "displayName": "desempenho",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "ad_name",
+              "displayName": "ad_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "tipo",
+              "displayName": "tipo",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "campaign_name",
+              "displayName": "campaign_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "adset_name",
+              "displayName": "adset_name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "spend",
+              "displayName": "spend",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "ctr",
+              "displayName": "ctr",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "cpc",
+              "displayName": "cpc",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "leads",
+              "displayName": "leads",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "cpl",
+              "displayName": "cpl",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "purchases",
+              "displayName": "purchases",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "roas",
+              "displayName": "roas",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "revenue",
+              "displayName": "revenue",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "reach",
+              "displayName": "reach",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "frequency",
+              "displayName": "frequency",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "impressions",
+              "displayName": "impressions",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "cpa",
+              "displayName": "cpa",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "ad_id",
+              "displayName": "ad_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "objective",
+              "displayName": "objective",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "creative title",
+              "displayName": "creative title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "creative body",
+              "displayName": "creative body",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "description",
+              "displayName": "description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "cta type",
+              "displayName": "cta type",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url cta",
+              "displayName": "url cta",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url media",
+              "displayName": "url media",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "url instagram",
+              "displayName": "url instagram",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "status",
+              "displayName": "status",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "created_time",
+              "displayName": "created_time",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "transcription",
+              "displayName": "transcription",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "adset_id",
+              "displayName": "adset_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "campaign_id",
+              "displayName": "campaign_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "checked",
+              "displayName": "checked",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "row_number",
+              "displayName": "row_number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "readOnly": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        -820,
+        2200
+      ],
+      "id": "9e740122-c1a3-455d-8ea5-a8cf12909343",
+      "name": "Update Negativos"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -2940,
+        1760
+      ],
+      "id": "314ab190-04ac-404c-a771-727b8607a50e",
+      "name": "Outliers - 1x"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        -620,
+        1960
+      ],
+      "id": "a5cc1f0a-cf08-43b3-ade4-e0adfaf46dd1",
+      "name": "5s +",
+      "webhookId": "70a30c10-c13f-4573-bbb2-2bcaac7f2082"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        -600,
+        2200
+      ],
+      "id": "5e06cee7-c382-4b56-afdd-38fd62e083da",
+      "name": "5s -",
+      "webhookId": "70a30c10-c13f-4573-bbb2-2bcaac7f2082"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "id": "c31597b7-d09e-4ef0-b5ab-f9fcf2e364b9",
+      "name": "Schedule Trigger2",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -3720,
+        1980
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 📌 Resumo do Fluxo: Análise Detalhada de Criativos (Facebook & Instagram)\n\n🎯 Objetivo:\nClassificar, analisar e registrar criativos (imagens, vídeos, Reels, Stories) do Facebook e Instagram, utilizando IA para transcrição/análise e consolidando os dados no Google Sheets.\n\n---\n\n### 🚀 Etapas do Fluxo:\n\n1. **Schedule Trigger**  \n   Inicia o fluxo periodicamente para processar novos criativos.\n\n2. **Consulta: Get Detalhes do Anúncio**  \n   Puxa informações completas do anúncio via Facebook Graph API, incluindo dados do criativo.\n\n3. **Switch: Tipo do Criativo**  \n   Classifica o tipo de criativo utilizando múltiplas condições:\n   - **Image URL:** Imagem capturada diretamente pela URL.\n   - **Imagem Hash:** Imagem via hash em `asset_feed_spec`.\n   - **Instagram Image:** Imagem do Instagram (sem vídeo) via `effective_instagram_media_id`.\n   - **Instagram Reels:** Vídeo Instagram com `effective_instagram_media_id` e presença de `asset_feed_spec.videos`.\n   - **Vídeo Story:** Vídeo tradicional, identificado por `video_id` ou `object_story_spec`.\n   - **Other:** Outros casos ou formatos.\n\n4. **Ações baseadas na classificação:**\n   - 🔹 **Imagem Hash ou URL:** Busca hash na API e análise de imagem via OpenAI.\n   - 🔹 **Instagram Image:** Busca via `effective_instagram_media_id` + análise.\n   - 🔹 **Reels e Vídeos:** Download do vídeo + transcrição via OpenAI.\n   - 🔹 **Other:** Mapeamento direto sem análise/transcrição.\n\n5. **Node Mapping:**  \n   Consolida todos os dados extraídos e processados (body, title, descrição, CTA, URLs, status, tipo do criativo, transcrição/análise, etc).\n\n6. **Google Sheets:**  \n   Atualiza planilha com dados organizados e já marcados como processados (checked ✅).\n\n---\n\n### ⚙️ Particularidades:\n- Condições específicas para diferenciar **Reels, Feed Vídeo, Stories, Carrossel e Imagem** com precisão.\n- Uso de **OpenAI GPT-4o-mini** para análise descritiva de imagens e transcrição de vídeos.\n- Fallback configurado para evitar perda de dados em casos não mapeados.\n\n---\n\n💠 *Criado por @prof.palomasilva - Automação Inteligente com n8n & IA 💠*\n",
+        "height": 1180,
+        "width": 880
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -3160,
+        480
+      ],
+      "typeVersion": 1,
+      "id": "f24a2aa2-0aa6-4706-9c26-be779258c093",
+      "name": "Sticky Note5"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $json['ID Sheets Ranking de Criativos'] }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Top",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/16LVDNtBKQXeDW6x3_RYPSYudHaaMGKljJtMNd5s6iVk/edit#gid=0"
+        },
+        "filtersUI": {
+          "values": [
+            {
+              "lookupColumn": "checked"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        -3320,
+        1980
+      ],
+      "id": "573aa1c6-05ad-46ff-a036-9b03ba15132a",
+      "name": "Outliers Positivos1"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "={{ $node[\"Data2\"].json[\"ID Sheets Ranking de Criativos\"] }}",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 637420599,
+          "mode": "list",
+          "cachedResultName": "Piores",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/16LVDNtBKQXeDW6x3_RYPSYudHaaMGKljJtMNd5s6iVk/edit#gid=637420599"
+        },
+        "filtersUI": {
+          "values": [
+            {
+              "lookupColumn": "checked"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        -3120,
+        1760
+      ],
+      "id": "51b7558b-8dc5-40ac-9e99-013e5aa36f43",
+      "name": "Outliers Negativos1",
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "content": "### Insira aqui os parâmetros\n1. Critério de outlier positivo (em porcentagem)\n2. Critério de outlier negativo (em porcentagem)"
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -3580,
+        1800
+      ],
+      "typeVersion": 1,
+      "id": "a9f1b5f6-ad40-4054-a321-0c4352f5c436",
+      "name": "Sticky Note6"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "728ebf1c-8554-4441-82b4-7961923bf5f7",
+              "name": "Date Preset",
+              "value": "last_30d",
+              "type": "string"
+            },
+            {
+              "id": "506f9cbe-ebb8-4958-b5a4-eff96070471a",
+              "name": "Percentual Outliers Positivos",
+              "value": "40%",
+              "type": "string"
+            },
+            {
+              "id": "17891fc9-cfba-4477-88d4-5320221812e9",
+              "name": "Percentual Outliers Negativos",
+              "value": "30%",
+              "type": "string"
+            },
+            {
+              "id": "8d88c137-383f-4307-b3cc-1f6a560ea67b",
+              "name": "telefone",
+              "value": "=5511958446061",
+              "type": "string"
+            },
+            {
+              "id": "a36b66cb-a00f-4734-ba0c-0ec31a6835e5",
+              "name": "Nome Completo",
+              "value": "=Bobbynho Te Amo",
+              "type": "string"
+            },
+            {
+              "id": "ccb4cf45-f410-4022-b8ee-e0685ce4f532",
+              "name": "Inbox",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "15f1d4c0-ee60-42ac-869d-f80970e24bb6",
+              "name": "Message ID",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "fcad4f0f-c9db-4aee-b362-0d0b414adb2c",
+              "name": "Conversation ID",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "01b2c245-fee6-4d3e-a3ae-ee425dd75d8a",
+              "name": "Account ID",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "ae84878b-b163-41d2-bc57-6a74daec8a12",
+              "name": "Account Name",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "01d04d3c-a6ea-42b1-bdf7-f4e179a1ed08",
+              "name": "URL ChatWoot",
+              "value": "https://atendimento.fulanodetal.com",
+              "type": "string"
+            },
+            {
+              "id": "533bf819-08ac-491a-b181-6b5388945daf",
+              "name": "URL Evolution",
+              "value": "https://evo.fulanodetal.com",
+              "type": "string"
+            },
+            {
+              "id": "7ba6a381-c07a-4c79-a4df-330447933eed",
+              "name": "Instância Evolution",
+              "value": "FulanoDeTal",
+              "type": "string"
+            },
+            {
+              "id": "869226de-36b7-4708-a7d4-ce52ca2a9459",
+              "name": "ID Grupo",
+              "value": "=",
+              "type": "string"
+            },
+            {
+              "id": "959a1a8e-4330-4dd0-b2ac-375872e78392",
+              "name": "ID Sheets Ranking de Criativos",
+              "value": "16LVDNtBKQXeDW6x3_RYPSYudHaaMGKljJtMNd5s6iVk",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "2adffe20-5ed0-4bdc-9f42-15c643017b7d",
+      "name": "Data2",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -3520,
+        1980
+      ]
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-04-03T09:45:39.000Z",
+  "versionId": "ec09f4fb-8d82-424c-b90d-d74ea649e9bc"
+}
